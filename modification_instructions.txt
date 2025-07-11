@@ -1,0 +1,2 @@
+genres_data.csv: rename column 'GenreID' to 'GID'
+orders_data.csv: reduce values in 'TotalAmount' by 1.00
