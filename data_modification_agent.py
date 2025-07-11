@@ -8,7 +8,7 @@ load_dotenv()
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENROUTER_MISTRAL_SMALL_API_KEY")
 os.environ["OPENAI_API_BASE"] = "https://openrouter.ai/api/v1"
 
-CSV_DIR = r"D:\Langchain\Internship_Pune_TCS\SQL Project (Industry Level Data Implementation)\Industry-Sub_domain Data"
+CSV_DIR = r"D:\LangChain\Internship_Pune_TCS\Industry Level Data Handling\Industry-Sub_domain Data"
 
 def list_csv_files(directory):
     return [f for f in os.listdir(directory)

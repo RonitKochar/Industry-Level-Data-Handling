@@ -6,7 +6,7 @@ from langchain_community.chat_models import ChatOpenAI
 from langchain.agents import create_react_agent, AgentExecutor
 from langchain_core.prompts import PromptTemplate
 
-CSV_FOLDER = "D:\\Langchain\\Internship_Pune_TCS\\SQL Project (Industry Level Data Implementation)\\Industry-Sub_domain Data"  # <--- Change this to your desired folder path
+CSV_FOLDER = r"D:\LangChain\Internship_Pune_TCS\Industry Level Data Handling\Industry-Sub_domain Data"  # <--- Change this to your desired folder path
 
 def generate_sales_sql(question: str, csv_folder: str) -> str:
     if not question.strip():

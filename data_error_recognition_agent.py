@@ -7,7 +7,7 @@ from langchain_community.chat_models import ChatOpenAI
 from langchain_experimental.agents import create_csv_agent
 
 # Directory containing CSV files
-CSV_FOLDER = "D:\\Langchain\\Internship_Pune_TCS\\SQL Project (Industry Level Data Implementation)\\Industry-Sub_domain Data"
+CSV_FOLDER = r"D:\LangChain\Internship_Pune_TCS\Industry Level Data Handling\Industry-Sub_domain Data"
 MERGED_FILE_NAME = "__merged_all_data.csv"
 temp_merged_path = os.path.join(CSV_FOLDER, MERGED_FILE_NAME)
 
